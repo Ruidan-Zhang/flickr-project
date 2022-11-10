@@ -15,10 +15,11 @@
 
 .log-in { 
     color: white;
-    justify-self: flex-end;
 }
 
  html {
     background-image:url("https://c4.wallpaperflare.com/wallpaper/21/581/99/3-316-16-9-aspect-ratio-s-sfw-wallpaper-preview.jpg");
+    height: 100%; 
+    background-repeat: none;
  }
    
