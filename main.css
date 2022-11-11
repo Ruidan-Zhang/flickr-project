@@ -18,6 +18,7 @@
 #header-name {
     color: white;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .log-in {
@@ -27,12 +28,20 @@
 }
 
 html {
-    background-image: url(/images/pexels-hristo-fidanov-1252869.jpg);
-    height: 100%;
+    background-image: url(/images/image2.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
  }
+
+ #image { 
+   display: block;
+   width: 800px; 
+   margin: 0 auto; 
+   transition: 0.5s;
+ }
+
 
  .top-right {
     margin: 20px;
@@ -161,20 +170,23 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 450px;
     color: white;
     cursor: pointer;
+
  }
 
- .author-1 {
-    margin-bottom: 0;
+ .author-1 { 
+   position: absolute;
+   bottom: 130px;
  }
 
+ .author-2 { 
+   position: absolute;
+   bottom: 100px;
+ }
  .author-1:hover {
     text-decoration: underline;
  }
  .author-2:hover {
     text-decoration: underline;
  }
-
- @media screen 
